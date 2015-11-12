@@ -1,7 +1,7 @@
 "use strict";
 
 QUnit.module(module.id);
-var locale = require("syracuse-core/lib/locale");
+var locale = require("../..");
 
 test('format', 10, function() {
 	strictEqual(locale.format('a{2}b{0}c{1}', 'x', 'y', 'z'), 'azbxcy', 'indexed args');
