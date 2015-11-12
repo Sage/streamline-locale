@@ -1,0 +1,32 @@
+{
+  "name": "streamline-locale",
+  "description": "locale management for streamline.js",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Bruno Jouhier"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Sage/streamline-locale.git"
+  },
+  "engines": {
+    "node": ">=0.10.8"
+  },
+  "dependencies": {
+    "streamline-runtime": "^1.0.16"
+  },
+  "devDependencies": {
+    "streamline-helpers": "1.0.0"
+  },
+  "scripts": {
+    "prepublish": "node build.js || nodejs build.js",
+    "test": "node test-callbacks"    
+  },
+  "main": "index.js",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/Sage/streamline-locale/issues"
+  },
+  "homepage": "https://github.com/Sage/streamline-locale#readme"
+}
