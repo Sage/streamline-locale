@@ -1,7 +1,7 @@
 {
   "name": "streamline-locale",
   "description": "locale management for streamline.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "name": "Bruno Jouhier"
