@@ -14,7 +14,7 @@
     "node": ">=0.10.8"
   },
   "dependencies": {
-    "streamline-runtime": "^1.0.16"
+    "streamline-runtime": "^1.1.15"
   },
   "devDependencies": {
     "babel-plugin-streamline": "^2.0.0",
