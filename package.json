@@ -11,7 +11,7 @@
     "url": "git://github.com/Sage/streamline-locale.git"
   },
   "engines": {
-    "node": ">=0.10.8"
+    "node": ">=10.0.0"
   },
   "dependencies": {
     "streamline-runtime": "^2.0.0"
