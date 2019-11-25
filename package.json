@@ -11,15 +11,15 @@
     "url": "git://github.com/Sage/streamline-locale.git"
   },
   "engines": {
-    "node": ">=0.10.8"
+    "node": ">=10.0.0"
   },
   "dependencies": {
-    "streamline-runtime": "^1.1.15"
+    "streamline-runtime": "^2.0.0"
   },
   "devDependencies": {
-    "babel-plugin-streamline": "^2.0.0",
-    "babel-preset-es2015": "^6.3.13",
-    "streamline-helpers": "2.0.0"
+    "babel-plugin-streamline": "^2.0.26",
+    "babel-preset-es2015": "^6.24.1",
+    "streamline-helpers": "4.0.0"
   },
   "scripts": {
     "prepublish": "node build.js || nodejs build.js",
